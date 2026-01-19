@@ -126,7 +126,7 @@ A complete detailed project report is included in this repository.
 ---
 
 ##  Authors
-- **Sayem Ul Haq**
+- **Sayem**
 ---
 
 ##  Institution
