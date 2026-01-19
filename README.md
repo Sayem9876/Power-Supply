@@ -1,7 +1,7 @@
 #  Dual Output DC Power Supply
 
 ##  Project Overview
-This project involves the **design, implementation, and analysis of a dual-output regulated DC power supply** capable of providing:
+This project involves the **design, implementation, and analysis of a dual output regulated DC power supply** capable of providing:
 
 - **Variable DC output:** 2 V – 24 V using **LM317**
 - **Fixed DC output:** 5 V using **7805**
@@ -22,7 +22,7 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 ---
 
 ##  Components Used
-- Step-down transformer (230 V → 24 V)
+- Step down transformer (230 V → 24 V)
 - Bridge rectifier
 - Filter capacitor (4700 µF)
 - LM317 adjustable voltage regulator
