@@ -134,5 +134,5 @@ A complete detailed project report is included in this repository.
 
 ---
 
-## 📜 License
+##  License
 This project is intended for **academic and educational use only**.
