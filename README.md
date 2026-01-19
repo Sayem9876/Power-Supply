@@ -109,10 +109,10 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ##  PCB Design
 
-### PCB Routing
+### PCB Routing I
 ![PCB Routing](images/PCB_Routing.png)
 
-### PCB Routing (Improved)
+### PCB Routing II
 ![PCB Routing II](images/PCB_Routing_II.png)
 
 ### PCB 3D Model
