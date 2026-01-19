@@ -1,42 +1,142 @@
-# 🔌 Dual Output DC Power Supply (2–24V & Fixed 5V)
+# 🔌 Dual Output DC Power Supply (2–24V Variable & Fixed 5V)
 
 ## 📌 Project Overview
-This project presents the design and implementation of a **dual output regulated DC power supply**.  
-It provides:
+This project focuses on the **design, implementation, and analysis of a dual-output regulated DC power supply** capable of delivering:
+
 - **Variable DC output:** 2 V – 24 V using **LM317**
 - **Fixed DC output:** 5 V using **7805**
 
-- The power supply converts **230 V AC mains** into a stable and regulated DC output using a transformer, bridge rectifier, filter capacitor, and voltage regulator stages. The design ensures low ripple, stability, and reliable performance, making it suitable for laboratory and educational use.
+The power supply converts **AC mains voltage** into a stable DC output using a transformer, bridge rectifier, filter capacitor, and linear voltage regulators.  
+It is suitable for **laboratory experiments, circuit testing, and educational applications**.
 
-- ## 🎯 Project Objectives
+---
+
+## 🎯 Project Objectives
 - Convert AC mains voltage into regulated DC
-- Provide adjustable and fixed voltage outputs
-- Minimize ripple voltage
-- Ensure stable operation under load
-- Design and implement PCB and veroboard layouts
+- Design a variable voltage regulator using LM317
+- Provide a stable 5 V output for digital circuits
+- Minimize ripple voltage using proper filtering
+- Analyze performance using **MATLAB**
+- Implement the design on **veroboard and PCB**
 
-- ## 🧩 Components Used
+---
+
+## 🧩 Components Used
 - Step-down transformer (230 V → 24 V)
-- Bridge rectifier (2W06G)
+- Bridge rectifier
 - Filter capacitor (4700 µF)
 - LM317 adjustable voltage regulator
 - 7805 fixed voltage regulator
-- Potentiometer (5 kΩ)
+- Potentiometer
 - Resistors and capacitors
-- Measuring instruments (multimeter, oscilloscope)
+- Multimeter and oscilloscope
 
-- ## ⚙️ Working Principle
-1. The transformer steps down the AC mains voltage.
-2. The bridge rectifier converts AC into pulsating DC.
-3. The filter capacitor smooths the DC by reducing ripple.
-4. The LM317 provides an adjustable DC output from 2 V to 24 V.
-5. The 7805 regulator provides a constant 5 V DC output.
-6. Regulated DC outputs are obtained for safe electronic applications.
+---
 
-## 📐 Circuit Schematics
+## ⚙️ Working Principle
+1. AC mains voltage is stepped down using a transformer  
+2. The bridge rectifier converts AC into pulsating DC  
+3. A filter capacitor smooths the DC voltage  
+4. LM317 provides adjustable output from 2 V to 24 V  
+5. 7805 provides a fixed and stable 5 V output  
 
-### Variable 2–24 V DC Power Supply (LM317)
-![Variable 2–24V Schematic](circuit/Variable_2_24V_Schematic.png)
+---
 
-### Fixed 5 V DC Power Supply (7805)
-![Fixed 5V Schematic](circuit/Fixed_5V_Schematic.png)
+## 📐 Circuit Design & Layout
+
+### Overall Circuit Layout
+![Layout](Layout.png)
+
+### Variable 2–24 V Regulator Circuit
+![2–24V Circuit](2-24V.png)
+
+### Fixed 5 V Regulator Circuit
+![5V Circuit](5V.png)
+
+---
+
+## 📊 Input and Output Waveforms
+
+### Input AC Waveform
+![Input Waveform](Input Waveform.png)
+
+### Variable Output Waveform (2 V)
+![2V Waveform](2V - Waveform.png)
+
+### Variable Output Waveform (23.3 V)
+![23.3V Waveform](23.3V Waveform.png)
+
+### Fixed 5 V Output Waveform
+![5V Waveform](5V - Waveform.png)
+
+---
+
+## 🔍 Experimental Results
+
+### Variable Output (Minimum Voltage)
+![1.9V Output](1.9V-Output.jpg)
+
+### Variable Output (Maximum Voltage)
+![23.9V Output](23.9V - Output.jpg)
+
+### Fixed 5 V Output
+![5V Output](5V-Output.jpg)
+
+---
+
+## 🧮 MATLAB Analysis
+
+### Ripple Voltage with 4700 µF Capacitor
+![Ripple 4700uF](Ripple 4700uF.png)
+
+### Ripple Voltage vs Capacitance
+![Ripple vs Capacitance](Ripple vs Capacitance.png)
+
+### LM317 Output Voltage vs Potentiometer
+![LM317 Output vs Potentiometer](LM317 Output vs Potentio.png)
+
+### Power Dissipation in LM317
+![Power Dissipation LM317](Power Dissipation LM317.png)
+
+---
+
+## 🛠 Hardware Implementation
+
+### Veroboard Implementation
+![Veroboard](Veroboard.png)
+
+---
+
+## 🖥 PCB Design
+
+### PCB Routing
+![PCB Routing](PCB Routing.png)
+
+### PCB Routing (Improved)
+![PCB Routing II](PCB Routing II.png)
+
+### PCB 3D Model
+![PCB 3D Modelling](PCB 3D Modelling.png)
+
+---
+
+## 📄 Documentation
+A complete detailed project report is included in this repository.
+
+---
+
+## 👨‍💻 Authors
+- **Sayem Ul Haq**
+- **Anas Ur Rehman**
+- **Talha Ahmad**
+
+---
+
+## 🏫 Institution
+**NUST – College of Electrical and Mechanical Engineering**  
+Department of Electrical Engineering
+
+---
+
+## 📜 License
+This project is intended for **academic and educational use only**.
