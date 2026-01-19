@@ -8,7 +8,7 @@ It provides:
 
 - The power supply converts **230 V AC mains** into a stable and regulated DC output using a transformer, bridge rectifier, filter capacitor, and voltage regulator stages. The design ensures low ripple, stability, and reliable performance, making it suitable for laboratory and educational use.
 
-- ## 🎯 Objectives
+- ## 🎯 Project Objectives
 - Convert AC mains voltage into regulated DC
 - Provide adjustable and fixed voltage outputs
 - Minimize ripple voltage
