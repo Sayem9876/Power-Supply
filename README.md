@@ -1,21 +1,21 @@
 # 🔌 Dual Output DC Power Supply (2–24V Variable & Fixed 5V)
 
 ## 📌 Project Overview
-This project focuses on the **design, implementation, and analysis of a dual-output regulated DC power supply** capable of delivering:
+This project involves the **design, implementation, and analysis of a dual-output regulated DC power supply** capable of providing:
 
 - **Variable DC output:** 2 V – 24 V using **LM317**
 - **Fixed DC output:** 5 V using **7805**
 
-The power supply converts **AC mains voltage** into a stable DC output using a transformer, bridge rectifier, filter capacitor, and linear voltage regulators.  
-It is suitable for **laboratory experiments, circuit testing, and educational applications**.
+The system converts **AC mains voltage** into a stable and regulated DC supply using a transformer, bridge rectifier, filter capacitor, and linear voltage regulators.  
+It is suitable for **laboratory experiments, testing, and educational applications**.
 
 ---
 
 ## 🎯 Project Objectives
 - Convert AC mains voltage into regulated DC
-- Design a variable voltage regulator using LM317
+- Design an adjustable power supply using LM317
 - Provide a stable 5 V output for digital circuits
-- Minimize ripple voltage using proper filtering
+- Reduce ripple voltage using proper filtering
 - Analyze performance using **MATLAB**
 - Implement the design on **veroboard and PCB**
 
@@ -28,14 +28,14 @@ It is suitable for **laboratory experiments, circuit testing, and educational ap
 - LM317 adjustable voltage regulator
 - 7805 fixed voltage regulator
 - Potentiometer
-- Resistors and capacitors
+- Discrete resistors and capacitors
 - Multimeter and oscilloscope
 
 ---
 
 ## ⚙️ Working Principle
 1. AC mains voltage is stepped down using a transformer  
-2. The bridge rectifier converts AC into pulsating DC  
+2. A bridge rectifier converts AC into pulsating DC  
 3. A filter capacitor smooths the DC voltage  
 4. LM317 provides adjustable output from 2 V to 24 V  
 5. 7805 provides a fixed and stable 5 V output  
@@ -45,78 +45,78 @@ It is suitable for **laboratory experiments, circuit testing, and educational ap
 ## 📐 Circuit Design & Layout
 
 ### Overall Circuit Layout
-![Layout](Layout.png)
+![Layout](images/Layout.png)
 
 ### Variable 2–24 V Regulator Circuit
-![2–24V Circuit](2-24V.png)
+![2–24V Circuit](images/2_24V.png)
 
 ### Fixed 5 V Regulator Circuit
-![5V Circuit](5V.png)
+![5V Circuit](images/5V.png)
 
 ---
 
 ## 📊 Input and Output Waveforms
 
 ### Input AC Waveform
-![Input Waveform](Input Waveform.png)
+![Input Waveform](images/Input_Waveform.png)
 
 ### Variable Output Waveform (2 V)
-![2V Waveform](2V - Waveform.png)
+![2V Waveform](images/2V_Waveform.png)
 
 ### Variable Output Waveform (23.3 V)
-![23.3V Waveform](23.3V Waveform.png)
+![23.3V Waveform](images/23_3V_Waveform.png)
 
 ### Fixed 5 V Output Waveform
-![5V Waveform](5V - Waveform.png)
+![5V Waveform](images/5V_Waveform.png)
 
 ---
 
 ## 🔍 Experimental Results
 
 ### Variable Output (Minimum Voltage)
-![1.9V Output](1.9V-Output.jpg)
+![1.9V Output](images/1_9V_Output.jpg)
 
 ### Variable Output (Maximum Voltage)
-![23.9V Output](23.9V - Output.jpg)
+![23.9V Output](images/23_9V_Output.jpg)
 
 ### Fixed 5 V Output
-![5V Output](5V-Output.jpg)
+![5V Output](images/5V_Output.jpg)
 
 ---
 
 ## 🧮 MATLAB Analysis
 
 ### Ripple Voltage with 4700 µF Capacitor
-![Ripple 4700uF](Ripple 4700uF.png)
+![Ripple 4700uF](images/Ripple_4700uF.png)
 
 ### Ripple Voltage vs Capacitance
-![Ripple vs Capacitance](Ripple vs Capacitance.png)
+![Ripple vs Capacitance](images/Ripple_vs_Capacitance.png)
 
 ### LM317 Output Voltage vs Potentiometer
-![LM317 Output vs Potentiometer](LM317 Output vs Potentio.png)
+![LM317 Output vs Potentiometer](images/LM317_Output_vs_Potentiometer.png)
 
 ### Power Dissipation in LM317
-![Power Dissipation LM317](Power Dissipation LM317.png)
+![Power Dissipation LM317](images/Power_Dissipation_LM317.png)
 
 ---
 
 ## 🛠 Hardware Implementation
 
 ### Veroboard Implementation
-![Veroboard](Veroboard.png)
+![Veroboard](images/Veroboard.png)
 
 ---
 
 ## 🖥 PCB Design
 
 ### PCB Routing
-![PCB Routing](PCB Routing.png)
+![PCB Routing](images/PCB_Routing.png)
 
 ### PCB Routing (Improved)
-![PCB Routing II](PCB Routing II.png)
+![PCB Routing II](images/PCB_Routing_II.png)
 
 ### PCB 3D Model
-![PCB 3D Modelling](PCB 3D Modelling.png)
+![PCB 3D Modelling](images/PCB_3D_Modelling.png)
 
 ---
 
@@ -127,9 +127,6 @@ A complete detailed project report is included in this repository.
 
 ## 👨‍💻 Authors
 - **Sayem Ul Haq**
-- **Anas Ur Rehman**
-- **Talha Ahmad**
-
 ---
 
 ## 🏫 Institution
