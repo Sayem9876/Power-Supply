@@ -130,8 +130,7 @@ A complete detailed project report is included in this repository.
 ---
 
 ##  Institution
-**NUST – College of Electrical and Mechanical Engineering**  
-Department of Electrical Engineering
+**NUST**  
 
 ---
 
