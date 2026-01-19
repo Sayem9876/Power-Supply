@@ -120,11 +120,6 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ---
 
-##  Documentation
-A complete detailed project report is included in this repository.
-
----
-
 ##  Authors
 **Sayem**
 
