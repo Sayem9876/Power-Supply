@@ -1,6 +1,6 @@
-# 🔌 Dual Output DC Power Supply (2–24V Variable & Fixed 5V)
+#  Dual Output DC Power Supply (2–24V Variable & Fixed 5V)
 
-## 📌 Project Overview
+##  Project Overview
 This project involves the **design, implementation, and analysis of a dual-output regulated DC power supply** capable of providing:
 
 - **Variable DC output:** 2 V – 24 V using **LM317**
@@ -11,7 +11,7 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 - Convert AC mains voltage into regulated DC
 - Design an adjustable power supply using LM317
 - Provide a stable 5 V output for digital circuits
@@ -21,7 +21,7 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ---
 
-## 🧩 Components Used
+##  Components Used
 - Step-down transformer (230 V → 24 V)
 - Bridge rectifier
 - Filter capacitor (4700 µF)
@@ -33,7 +33,7 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ---
 
-## ⚙️ Working Principle
+##  Working Principle
 1. AC mains voltage is stepped down using a transformer  
 2. A bridge rectifier converts AC into pulsating DC  
 3. A filter capacitor smooths the DC voltage  
@@ -42,7 +42,7 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ---
 
-## 📐 Circuit Design & Layout
+##  Circuit Design & Layout
 
 ### Overall Circuit Layout
 ![Layout](images/Layout.png)
@@ -55,7 +55,7 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ---
 
-## 📊 Input and Output Waveforms
+##  Input and Output Waveforms
 
 ### Input AC Waveform
 ![Input Waveform](images/Input_Waveform.png)
@@ -71,7 +71,7 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ---
 
-## 🔍 Experimental Results
+##  Experimental Results
 
 ### Variable Output (Minimum Voltage)
 ![1.9V Output](images/1_9V_Output.jpg)
@@ -84,7 +84,7 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ---
 
-## 🧮 MATLAB Analysis
+##  MATLAB Analysis
 
 ### Ripple Voltage with 4700 µF Capacitor
 ![Ripple 4700uF](images/Ripple_4700uF.png)
@@ -100,14 +100,14 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ---
 
-## 🛠 Hardware Implementation
+##  Hardware Implementation
 
 ### Veroboard Implementation
 ![Veroboard](images/Veroboard.png)
 
 ---
 
-## 🖥 PCB Design
+##  PCB Design
 
 ### PCB Routing
 ![PCB Routing](images/PCB_Routing.png)
@@ -120,16 +120,16 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 
 ---
 
-## 📄 Documentation
+##  Documentation
 A complete detailed project report is included in this repository.
 
 ---
 
-## 👨‍💻 Authors
+##  Authors
 - **Sayem Ul Haq**
 ---
 
-## 🏫 Institution
+##  Institution
 **NUST – College of Electrical and Mechanical Engineering**  
 Department of Electrical Engineering
 
