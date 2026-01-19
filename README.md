@@ -1,4 +1,4 @@
-#  Dual Output DC Power Supply (2–24V Variable & Fixed 5V)
+#  Dual Output DC Power Supply
 
 ##  Project Overview
 This project involves the **design, implementation, and analysis of a dual-output regulated DC power supply** capable of providing:
