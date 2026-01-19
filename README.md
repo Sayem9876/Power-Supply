@@ -80,7 +80,7 @@ It is suitable for **laboratory experiments, testing, and educational applicatio
 ![23.9V Output](images/23_9V_Output.jpg)
 
 ### Fixed 5 V Output
-![5V Output](images/5V_Output.jpg)
+![5V Output](images/5V-Output.jpg)
 
 ---
 
